@@ -1,1 +1,12 @@
 # Combinational Logic Modules
+
+This folder contains foundational combinational logic circuits and their verification environments.
+
+## 1. Silly Function (Boolean Logic)
+* **Design File:** `design.sv`
+* **Testbench File:** `testbench.sv`
+* **Description:** A behavioral implementation of a simple 3-input combinational logic gate based on the equation `y = ~a & ~b & ~c | a & ~b & ~c | a & ~b & c`.
+* **Verification:** The testbench applies stimulus to cover multiple input states. 
+
+**Simulation Waveform:**
+![Silly Function Waveform](sillyfunction_waveform.png)
